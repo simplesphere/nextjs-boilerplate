@@ -16,9 +16,16 @@
 		"incremental": true,
 		"baseUrl": ".",
 		"paths": {
-			"@/*": ["./src/*"]
+			"@/*": ["./src/*"],
+			"@/components/*": ["./src/components/*"],
+			"@/pages/*": ["./src/pages/*"],
+			"@/lib/*": ["./src/lib/*"],
+			"@/hooks/*": ["./src/hooks/*"],
+			"@/styles/*": ["./src/styles/*"],
+			"@/mocks/*": ["./__mocks__/*"],
+			"@/tests/*": ["./.jest/*"]
 		}
 	},
-	"include": ["next-env.d.ts", ".eslintrc.js", "**/*.ts", "**/*.tsx"],
+	"include": ["next-env.d.ts", ".eslintrc.js", "src/**/*.ts", "src/**/*.tsx"],
 	"exclude": ["node_modules"]
 }
