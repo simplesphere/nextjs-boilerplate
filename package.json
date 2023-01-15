@@ -14,7 +14,8 @@
 		"lint": "next lint",
 		"prettier:check": "prettier --check \"**/*.{ts,tsx,json}\"",
 		"prettier:fix": "prettier --write .",
-		"eslint:check": "eslint ./src --ext ts --ext tsx --ext js"
+		"eslint:check": "eslint ./src --ext ts --ext tsx --ext js",
+		"prepare": "husky install"
 	},
 	"dependencies": {
 		"@next/font": "13.1.2",
@@ -38,6 +39,7 @@
 		"eslint-plugin-prettier": "^4.2.1",
 		"eslint-plugin-react": "^7.32.0",
 		"eslint-plugin-react-hooks": "^4.6.0",
+		"husky": "^7.0.0",
 		"lint-staged": "^13.1.0",
 		"prettier": "^2.8.3"
 	},
