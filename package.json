@@ -38,6 +38,16 @@
 		"eslint-plugin-prettier": "^4.2.1",
 		"eslint-plugin-react": "^7.32.0",
 		"eslint-plugin-react-hooks": "^4.6.0",
+		"lint-staged": "^13.1.0",
 		"prettier": "^2.8.3"
+	},
+	"lint-staged": {
+		"src/**/*.{ts,js,tsx,jsx}": [
+			"eslint --max-warnings=0",
+			"prettier --write"
+		],
+		"**/*.{json,css,scss,md,webmanifest}": [
+			"prettier --write"
+		]
 	}
 }
