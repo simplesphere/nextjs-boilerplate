@@ -9,10 +9,8 @@ export default function Home() {
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
-			<main className='bg-grey-50'>
-				<div className='container flex flex-wrap items-center'>
-					<h1 className='text-4xl'>Hello World</h1>
-				</div>
+			<main className='h-full flex flex-wrap items-center justify-center bg-slate-50'>
+				<h1>Hello World</h1>
 			</main>
 		</>
 	)
